@@ -243,6 +243,11 @@
 			$message .= "Met vriendelijke groet,<br>";
 			$message .= "Fotosjaak uw fotograaf";
 			
+			$message2 = "<u><b>Geachte</b> heer/mevrouw ".$infix." ".$surname."</u><br><br>";
+			$message2 .= "Nog bedankt voor het registreren<br>";
+			$message2 .= "Met Vriendlijke groet,<br>";
+			$message2 .= "FotoSjaak<br><br>";
+			
 			$headers = "Reply-To: info@fotosjaak.nl\r\n";
 			$headers .= "From: sjaakdevries@fotosjaak.nl\r\n";
 			$headers .= "Cc: info@fotosjaak.nl\r\n";

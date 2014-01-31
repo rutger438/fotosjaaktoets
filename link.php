@@ -17,6 +17,11 @@
 							<a href='./index.php?content=faqpage'>FAQ game</a>
 						  </li>";
 				break;
+				case 'coworker':
+					echo "<li>
+							<a href='./index.php?content=pandabeer'>pandabeer</a>
+						  </li>";
+				break;
 				case 'root':
 					//Plaats hier de speciale links voor de root.
 				break;
